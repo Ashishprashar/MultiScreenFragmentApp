@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Numbers category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Number">
+        <TextView
+            android:id="@+id/number"
+            style="@style/mainTextView"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Numbers" />
+    </FrameLayout>
+
+    <!-- Family category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/family">
+        <TextView
+            android:id="@+id/family"
+            style="@style/mainTextView"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Family Members" />
+    </FrameLayout>
+
+    <!-- Colors category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colors">
+        <TextView
+            android:id="@+id/colors"
+            style="@style/mainTextView"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Colors" />
+    </FrameLayout>
+
+    <!-- Phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pharases">
+        <TextView
+            android:id="@+id/phrases"
+            style="@style/mainTextView"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Phrasess" />
+    </FrameLayout>
+</LinearLayout>

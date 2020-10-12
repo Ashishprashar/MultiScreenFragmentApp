@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#29272C</color>
+    <color name="colorPrimaryDark">#181819</color>
+    <color name="colorAccent">#101212</color>
+    <color name="Number">#CD4C07</color>
+    <color name="family">#026007</color>
+    <color name="colors">#3F0260</color>
+    <color name="pharases">#258E81</color>
+    <color name="tan_background">#fff7da</color>
+</resources>
